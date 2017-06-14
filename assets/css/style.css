@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-image: url("../images/tree_bark.png");
+	overflow: ;
+}
+
+p {
+	color: #777777;
+}
+
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+	display: inline;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+	color: #4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+	
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.name {
+	background-color: #4aaaa5;
+	width: 140px;
+	padding: 5px;
+	margin-left: 60px;
+}
+
+.links {
+	float: right;
+	/*width: 200px;
+	position: absolute;
+	top: 30px;
+	right: 40px;*/
+}
+
+.content {
+	width: 650px;
+	margin-left: 60px;
+	margin-top: 40px;
+	float: left;
+}
+
+.knowme {
+		background-color: #ffffff; 
+		padding: 15px;
+		border: 1px solid #dddddd;
+}
+
+.header {
+	background-color: #ffffff;
+	height: 78px;
+	border-bottom: 2px solid #dddddd;
+	display: block;
+	margin: 0;
+}
+
+.sidebar {
+	float: left;
+	background-color: #ffffff;
+	margin-left: 40px;
+	margin-top: 40px;
+	padding: 15px;
+
+}
+
+.selfie {
+	float: left;
+	display: inline;
+}
+
+.footer {
+	display: block-inline;
+	width: 100%;
+}
